@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<?PHP include( "util.php" ); ?>
+<?php
+  $GLOBALS["radio_store"] = "stations.txt";
+  $GLOBALS["mpc"] = "mpc";
+  $GLOBALS["wishlist_store"] = "wishlist.txt";
+?>
+<html>
+<head>
+<title>Mephisto Administration</title>
+    <link type="text/css" href="css/smoothness/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
+	<link type="text/css" href="css/common.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript">
+      $(function(){
+
+        // Tabs
+        $('#tabs').tabs();
+
+      });
+    </script>
+</head>
+<body style="height:100%;">
+
+<div id="wrapper">
+
+
+
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Stations</a></li>
+        <li><a href="#tabs-2">Player</a></li>
+        <li><a href="#tabs-3">Wishlist</a></li>
+      </ul>
+      <div id="tabs-1">
+		<?PHP include( "stations.php" ); ?>
+	  </div>
+	  
+
+      <div id="tabs-2">
+	    <?PHP include( "player.php" ); ?>
+	  </div>
+
+      <div id="tabs-3">
+		<?PHP include( "wishlist.php" ); ?>
+	  </div>
+    </div>
+</div>	
+</body>
+</html>

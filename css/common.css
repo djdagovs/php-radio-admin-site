@@ -1,0 +1,102 @@
+.content {
+	text-align: center;
+}
+
+.label {
+	margin-right: 458px;
+}
+
+.separator {
+	height: 1px;
+	background-color: #000;
+}
+
+.header {
+	height: 50px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#444), to(#777) );
+}
+
+.navi {
+	text-align: center;
+	margin-top: -30px;
+}
+
+a:link {font-size:26px; text-decoration: none; color:#fff !important;}
+a:visited {text-decoration: none; color:#fff !important;}
+a:active {text-decoration: none; color:#fff !important;}
+a:hover {text-decoration: none; color: grey !important;}
+
+html,body {
+	height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font: normal 20px 'Segoe UI', 'Trebuchet MS', 'Lucida Grande', Helvetica,
+		sans-serif;
+}
+
+.buttons {
+	margin-top: -40px;
+	margin-left: 700px;
+}
+
+.ok-button {
+	margin-top: -48px;
+	margin-left: 700px;
+}
+
+.radio-display {
+	margin-top:10px;
+	background-color: #fff;
+	font: normal 14px 'Arial', 'Trebuchet MS', 'Lucida Grande', Helvetica,
+		sans-serif;
+}
+
+.station-row {
+	height: 40px;
+	margin-top: 10px;
+}
+
+.action_icon {
+	margin-top: 5px;
+}
+
+.station-url, .station-url-input {
+	font: normal 20px 'Segoe UI', 'Trebuchet MS', 'Lucida Grande', Helvetica,
+		sans-serif;
+	border: 1px solid #BCBCBC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px;
+	height: 32px;
+	width: 600px;
+	background-color: #eee;
+}
+
+.station-url-input {
+	background-color: #fff;
+}
+
+.wishlist {
+	margin-top: 10px;
+	border: 1px solid #BCBCBC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.station-name:focus,.station-url:focus {
+	box-shadow: inset 0 0 3px #4189DD;
+	-webkit-box-shadow: inset 0 0 3px #4189DD;
+	-moz-box-shadow: inset 0 0 3px #4189DD;
+	border-color: #4189DD;
+	outline: none;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+
+/*******************************************************************/
+/* Icons */
+/*******************************************************************/
